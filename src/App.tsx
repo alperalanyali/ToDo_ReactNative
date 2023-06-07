@@ -7,10 +7,7 @@ import ToDoCard from './components/ToDoCard/ToDoCard'
 
 const App = ()=> {
   const [todos,setTodos] = useState([
-    "Çöp dökülecek",
-    "Oda toplanacak",
-    "Ayakkabı temizlenecek",
-    "Markete gidilecek",
+ 
   ]);
   
   const [newTodo,setNewTodo] = useState("");
